@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+
+    .flex-container{
+      display: flex;
+      justify-content: center;
+      }
+
+  
+    .grid-container{
+      display: grid;
+      gap: 9px;
+      grid-template-rows: 414px 140px 155px 20px;
+      grid-template-columns: 320px 198px 153px 50px;
+    }
+
+    .black{
+      background-color: #000;
+      grid-area: 1 / 1 / 5 / 5;
+    }
+
+    .red{
+      background-color: #E72F24;
+      grid-area: 1 / 1 / 2 / 2;
+    }
+
+    .white{
+      background-color: #F0F1EC;
+    }
+
+    .one{
+      grid-area: 1 / 2 / 2 / 5;
+    }
+
+    .two{
+      grid-area: 2 / 1 / 4 / 2;
+    }
+
+    .three{
+      grid-area: 2 / 2 / 4 / 4;
+    }
+
+    .four{
+      grid-area: 4 / 1 / 5 / 2;
+    }
+
+    .five{
+      grid-area: 3 / 4 / 5 / 5;
+      
+    }
+
+    .blue{
+      background-color: #004592;
+      grid-area: 2 / 4 / 3 / 5;
+      border-bottom: 10px solid #000;
+    }
+
+    .yellow{
+      background-color: #F9D01E;
+      grid-area: 4 / 2 / 5 / 3;
+    }
+
+    .green{
+      background-color: #232629;
+      grid-area: 4 / 3 / 5 / 4;
+    }
+
+  
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    
+    Black: #232629
+   
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+  </style>
+</head>
+
+<body>
+ <div class="flex-container">
+  <div class="grid-container">
+    <div class="black"></div>
+    <div class="red"></div>
+    <div class="white one"></div>
+    <div class="white two"></div>
+    <div class="white three" ></div>
+    <div class="blue"></div>    
+    <div class="white four"></div>
+    <div class="yellow"></div>
+    <div class="green"></div>
+    <div class="white five"></div>    
+  </div>
+  </div> 
+</body>
+
+</html>
